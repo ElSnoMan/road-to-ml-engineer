@@ -28,3 +28,12 @@
 * Combine layers (like a Convolution then feeding into an LSTM)
 
 [Google Colab Notebook](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/NLP%20Course%20-%20Week%203%20Exercise%20Answer.ipynb)
+
+
+## Week 4 - From Classification to Text Generation
+
+Dealing with really large datasets, I used Google Colab with GPU for better performance.
+
+* Word-based RNNs
+* Character-based RNNs
+    * [Google Colab Notebook](https://colab.research.google.com/drive/1sAAXpkFB0-9c6JeaVrtnbjl5pqaAs5LR)
