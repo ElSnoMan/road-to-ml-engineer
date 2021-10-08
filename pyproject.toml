@@ -2,21 +2,27 @@
 name = "road-to-ml-engineer"
 version = "0.1.0"
 description = ""
-authors = ["Carlos Kidman"]
+authors = ["Carlos Kidman <carlos@qap.dev>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-tensorflow = "^2.3.1"
-ipykernel = "^5.3.4"
-matplotlib = "^3.3.3"
-tensorflow-datasets = "^4.1.0"
-scipy = "^1.5.4"
-pandas = "^1.1.4"
+python = "^3.9"
+ipykernel = "^6.4.0"
+tensorflow = "^2.6.0"
+tensorflow-datasets = "^4.4.0"
+matplotlib = "^3.4.3"
+pandas = "^1.3.2"
+sklearn = "^0.0"
+transformers = "^4.11.2"
+pytorch-lightning = "^1.4.9"
+torchvision = "^0.10.1"
 
 [tool.poetry.dev-dependencies]
-flake8 = "^3.8.4"
-autopep8 = "^1.5.4"
-pytest = "^6.1.2"
+pytest = "^6.2.5"
+flake8 = "^3.9.2"
+black = "21.4b0"
+
+[tool.black]
+line-length = 120
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
