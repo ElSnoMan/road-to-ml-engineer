@@ -1,15 +1,4 @@
 tasks:
-  - init: |
-    pip install poetry
-    poetry install
-    poetry env info
-  # - name: "Install specific Python version"
-  #   command: |
-  #     cd /home/gitpod/.pyenv/plugins/python-build/../.. && git pull && cd -
-  #     pyenv install 3.10.1
-  #     pyenv global 3.10.1
-
-  # - name: "Install poetry and project dependencies"
-  #   command: |
-  #     pip install poetry
-  #     poetry install
+  - before: sh ./scripts/setup_gitpod.sh
+    init: poetry install
+    command: poetry env info
